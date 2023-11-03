@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+                .container {
+                        /* display: grid;
+                        grid-template-columns: repeat(4, 1fr);
+                        grid-template-rows: repeat(6, 1fr);
+                        grid-template-areas:
+                                "header header header header"
+                                "empty-block empty-block empty-block empty-block"
+                                "navigation navigation navigation navigation"
+                                "left-panel main-content main-content main-content"
+                                "empty-block empty-block empty-block empty-block"
+                                "footer footer footer footer";
+                         */
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr 1fr;
+                        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                        grid-template-areas:
+                                "header header header header"
+                                "navigation navigation navigation navigation"
+                                "left-panel main-content main-content main-content"
+                                "footer footer footer footer";
+                        width: 100%;
+                        height:250px;
+                        }
+
+                .item1 {
+                        grid-area: header;
+                        background-color: antiquewhite;
+                        height: 80px;
+                }
+
+                .item3 {
+                        grid-area: navigation;
+                        background-color: pink;
+                        height: 40px;
+                }
+
+                .item4 {
+                        grid-area: left-panel;
+                        background-color: aqua;
+                        height: 250px;
+                }
+
+                .item5 {
+                        grid-area: main-content;
+                        background-color: grey;
+                }
+
+                .item6 {
+                        grid-area: footer;
+                        background-color: blue;
+                        height: 80px;
+                }
+
+                .item {
+                        text-align: center;
+                }
+        </style>
+        <title>Document</title>
+</head>
+<div class="container">
+        <div class="item1 item"><h3>header(Шапка сайта)</h3></div>
+        <div class="item3 item"><h3>Блок навигации</h3></div>
+        <div class="item4 item"><h3>Левая панель</h3></div>
+        <div class="item5 item"><h3>Основной контент страницы</h3></div>
+        <div class="item6 item"><h3>footer(низ сайта)</h3></div>
+</div>
+
+<body>
+
+</body>
+
+</html>
