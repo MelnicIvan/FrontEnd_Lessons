@@ -1,0 +1,202 @@
+/*----------Basic Styles---------- */
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li,
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+
+/*------------------------------------------- */
+
+body {
+    font-family: Montserrat;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50px;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0 20px 0;
+
+    color: #FFF;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.adress {}
+
+.tel {}
+
+.info__tel {
+    color: #FFF;
+}
+
+.menu {
+    margin-top: 35px;
+}
+
+.menu__list {
+    display: flex;
+
+}
+
+.menu__link {
+    border: 1px solid white;
+    padding: 13px 106px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.link__menu1 {
+    border-left: none;
+}
+
+.link__menu4 {
+    border-right: none;
+}
+
+.main {
+    overflow: hidden;
+
+}
+
+.footer {}
+
+.buttons {
+    position: absolute;
+    width: 100%;
+    bottom: 150px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn {
+    padding: 15px 30px;
+
+    justify-content: center;
+    align-items: center;
+
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    background: #998431;
+}
+
+.section_1 {
+    height: 100vh;
+    background-image: url("../images/bgc_wine.jpg");
+}
+
+.section_2 {
+    text-align: center;
+    padding:100px 0 100px 0;
+    background: #282828;
+}
+
+.infoCard {
+    border: 3px solid white;
+}
+
+.infoCard__title {
+    margin: 60px 0 80px 0;
+
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.infoCard__title::after {
+    position: absolute;
+    content: '';
+    bottom: -40px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    width: 160px;
+    height: 1px;
+
+    background: #fff;
+}
+
+.infoCard__subtitle {
+    text-align: center;
+    width: 733px;
+    margin-bottom: 50px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.infoCard__content {
+    padding: 60px 187px;
+}
