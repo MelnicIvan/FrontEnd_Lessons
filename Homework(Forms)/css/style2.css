@@ -1,0 +1,50 @@
+.field{
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    bottom: 0px;
+    left: 4px;
+    z-index: 10;
+}
+
+.inputEmail{
+position: relative;
+}
+
+.inputSearch{
+    position: relative;
+
+}
+
+input{
+    width: 300px;
+    height: 20px;
+}
+
+label{
+    padding-bottom: 4px;
+}
+
+.fa-1{
+    background: url(../images/at-solid.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+
+}
+
+.fa-2{
+    background: url(../images/magnifying-glass-solid.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;  
+}
+
+.form__fieldOne{
+    margin-bottom: 15px;
+}
