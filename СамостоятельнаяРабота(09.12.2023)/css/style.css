@@ -1,0 +1,115 @@
+.container {
+    width: 1500px;
+    align-items: center;
+}
+
+.form {
+    width: 300px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    margin-top: 150px;
+}
+
+.form__title {
+    background-color: #655E6C;
+    color: rgb(209, 209, 209);
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+    padding: 15px 0 5px 0;
+    letter-spacing: 3px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.form__main {
+    background-color: #2D2F3A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.email-form {
+    padding: 30px 0 18px 0;
+
+}
+
+.input__email {
+    border: 1px solid #6E6A77;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+    background-color: #2D2F3A;
+    width: 230px;
+    font-size: 15px;
+}
+
+.references-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.references-form__forgotPassw {
+    margin-right: -40px;
+}
+
+.references-form__rememberMeBlock {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+
+.form__references {
+    width: 300px;
+    margin-top: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #6E6A77;
+}
+
+.password-form {
+    padding: 18px 0 18px 0;
+
+}
+
+
+
+.form__btn {
+    padding: 35px 0 18px 0;
+}
+
+.btn {
+    padding: 10px 60px;
+    background-color: #454555;
+    color: rgb(209, 209, 209);
+    border-radius: 9px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.input__password {
+    border: 1px solid #6E6A77;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+    background-color: #2D2F3A;
+    width: 230px;
+    font-size: 15px;
+}
+
+.references-form__checkbox {
+    color: #1c1d20;
+}
