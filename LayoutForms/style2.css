@@ -1,0 +1,252 @@
+.container {
+    margin: 0 auto;
+}
+
+.leftPart__title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 163px 0 0 128px;
+}
+
+.signInPage {
+    display: flex;
+}
+
+.leftPart {
+    display: flex;
+    flex-direction: column;
+    /* padding: 163px 127px 104px 128px; */
+
+}
+
+.leftPart__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftPart__footerItems {
+    display: flex;
+}
+
+.rightPart {
+    border-radius: 15px;
+    background: #000842;
+    width: 735px;
+    height: 859px;
+}
+
+.img {
+    width: 559px;
+    height: 415px;
+}
+
+.leftPart__sutitle {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 22px 0 0 128px;
+}
+
+.leftPart__link {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 6px 0 0 128px;
+}
+
+.leftPart__linkRegister {
+    color: #0C21C1;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.form-leftPart__emailLabel {
+    color: #999;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 52px 0 0 128px;
+}
+
+.form-leftPart__email {
+    margin: 11px 0 0 128px;
+}
+
+.form-leftPart__password {
+    margin: 11px 0 0 128px;
+}
+
+.form-leftPart__passwordLabel {
+    color: #999;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 49px 0 0 128px;
+}
+
+::placeholder {
+    color: #000842;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #000842;
+    padding-bottom: 7px;
+    width: 429px;
+    outline: none;
+    padding-left: 30px;
+}
+
+.form-leftPart{
+    margin-right: 127px;
+}
+
+.form-leftPart__btn {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    width: 429px;
+    height: 53px;
+    border-radius: 32px;
+    background: #0C21C1;
+    box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+    margin: 95px 0 0 128px;
+    cursor: pointer;
+}
+
+.leftPart__footerText {
+    color: #B5B5B5;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 39px 0 0 278px;
+}
+
+
+.footerItems-leftPart__item {
+    width: 41.457px;
+    height: 41.457px;
+}
+
+.rightPart__title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 0 0 0 88px;
+}
+
+.rightPart__subtitle {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 4px 0 0 88px;
+}
+
+.rightPart__img {
+    width: 559px;
+    height: 415px;
+    padding: 130px 88px 90px 88px;
+}
+
+.container {
+    width: 1440px;
+    height: 900px;
+}
+
+.rightPart {
+    width: 735px;
+    height: 859px;
+}
+
+.leftPart__footerItems {
+    display: flex;
+    gap: 21px;
+    padding: 33px 260px 101px 259px;
+}
+
+.letter {
+    width: 17px;
+    height: 17px;
+    /* margin: 82px 0px 0px 130px; */
+    margin: 10px 0px 0px 128px;
+    position: absolute;
+}
+
+.lock {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    /* margin: 185px 0px 0px 130px; */
+    margin: 11px 0px 0px 129px;
+}
+
+.yourLogo {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 42px 0 0 31px;
+    position: absolute;
+}
+
+a{
+    text-decoration: none;
+    color: #0C21C1;
+}
+
+.form-leftPart__userLabel{
+    color: #999;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 49px 0 0 128px;
+}
+
+.user{
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    margin: 11px 0px 0px 129px;
+}
+
+.form-leftPart__user{
+    color: #999;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 11px 0 0 128px;
+}
+
+.form-leftPart__confirmPassword{
+
+}
+
+.confirmPassword{
+
+}
+
+.form-leftPart__confirmPassword{
+    
+}
